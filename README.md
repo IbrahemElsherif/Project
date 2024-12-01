@@ -1,22 +1,21 @@
 
 # TimeMe
-#### [Video Demo](https://youtu.be/iv68_j2lEp0)
+#### Video Demo: https://youtu.be/iv68_j2lEp0
 
 ![Timeme](Timeme.gif)
 
-
-## Description
+#### Description
 
 TimeMe is a lightweight and efficient Chrome extension designed to help users track the time spent on individual browser tabs. Whether you're aiming to boost productivity, analyze your browsing habits, or simply stay mindful of your online activities, TimeMe provides the insights you need.
 
-## Features
+#### Features
 
 - **Real-time Tracking**: Automatically records the time spent on each tab.
 - **Tab-Specific Stats**: View time spent on individual tabs, grouped by website.
 - **User-Friendly Interface**: Clean, intuitive design for easy navigation.
 - **Data Export**: Export your time-tracking data for further analysis (optional feature).
 
-## Installation
+#### Installation
 
 1. Clone or download this repository.
 2. Open Chrome and navigate to `chrome://extensions/`.
@@ -24,14 +23,14 @@ TimeMe is a lightweight and efficient Chrome extension designed to help users tr
 4. Click on **Load unpacked** and select the folder containing the extension files.
 5. TimeMe is now installed and ready to use!
 
-## Future Enhancements (TODO)
+#### Future Enhancements (TODO)
 
 - Add support for syncing data across devices.
 - Implement dark mode for the interface.
 - Introduce weekly/monthly reports for extended insights.
 - Support tracking in incognito mode (optional with user permission).
 
-## Contributing
+#### Contributing
 
 Contributions are welcome! If you'd like to enhance TimeMe or fix a bug, please follow these steps:
 
