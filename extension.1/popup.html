@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TimeMe</title>
+    <!-- The rel="stylesheet" attribute tells the browser that the linked file is a CSS stylesheet -->
+    <!-- This attribute is required for the browser to properly interpret and apply the CSS rules -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Main View -->
+        <div id="main-view">
+            <header class="header">
+                <h1 class="title">TimeMe</h1>
+                <h2 class="subtitle">Track your time spent on websites</h2>
+                <a id="settings-link" class="settings-link">
+                    <button class="settings-btn">
+                        <img src="gear-icon.svg" alt="Settings">
+                    </button>
+                </a>
+            </header>
+
+            <div class="time-section">
+                <div class="time-label">Time spent</div>
+                <div class="time-values">
+                    <div class="time-box">
+                        <span class="time-number">00</span>
+                        <span class="time-unit">Hours</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time-number">00</span>
+                        <span class="time-unit">Minutes</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time-number">00</span>
+                        <span class="time-unit">Seconds</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <button class="timer-btn" id="start-stop-btn">Start</button>
+                <button class="timer-btn" id="history-btn">History</button>
+            </div>
+        </div>
+        <!-- History View -->
+        <div id="history-view">
+            <h1 class="history-title">Browsing Time History</h1>
+            <div id="history-container"></div>
+            <button id="back-btn" class="back-btn">Back</button>
+        </div>
+    </div>
+    <script type="module" src="popup.js"></script>
+</body>
+</html>

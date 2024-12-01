@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "TimeMe Site Time Tracker",
+  "version": "1.0",
+  "description": "Track time spent on websites",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "management",
+    "background"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [{
+    "resources": [
+      "db.js",
+      "popup.js",
+      "background.js",
+      "history.html",
+      "styles.css"
+    ],
+    "matches": ["<all_urls>"]
+  }]
+}

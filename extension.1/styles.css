@@ -1,0 +1,213 @@
+/* Add this at the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 432px;
+  height: 217px;
+  background-color: #1a1b26;
+}
+
+.container {
+  background-color: #1a1b26;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 34px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 24px;
+  background: #433861;
+  border-radius: 0px 0px 0 0;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  background: linear-gradient(90deg, #8a7fff, #ff7fed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: 'Space Mono', monospace;
+  -webkit-text-fill-color: transparent;
+  color: white;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.settings-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-btn {
+  background: #65558F;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.settings-btn img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.time-section {
+  padding: 0 24px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.time-label {
+  background: #EADDFF;
+  color: #1D1B20;
+  padding: 12px 10px;
+  border-radius: 24px;
+  font-family: 'Space Mono', monospace;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 20px;
+  border: 2px solid #65558F;
+}
+
+.time-values {
+  display: flex;
+  gap: 15px;
+}
+
+.time-box {
+  background: #E6E0E9;
+  padding: 10px 10px;
+  border-radius: 16px;
+  text-align: center;
+  min-width: 70px;
+  font-family: 'Space Mono', monospace;
+}
+
+.time-box:first-child {
+  background: #EADDFF;
+}
+
+.time-number {
+  display: block;
+  color: #1D1B20;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.time-unit {
+  display: block;
+  color: #49454F;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.timer-btn {
+  font-family: 'Space Mono', monospace;
+  background: #2C2C2C;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-left: 24px;
+}
+
+.timer-btn:hover {
+  background: #3a3b46;
+}
+
+/* Add specific style for the seconds box */
+.time-box:nth-child(3) {
+    background-color: #000000;
+}
+
+.time-box:nth-child(3) .time-number,
+.time-box:nth-child(3) .time-unit {
+    color: white;
+}
+
+/* History view styles */
+#history-view {
+    display: none;
+}
+
+.history-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 2em;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+.history-item {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.history-url {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.history-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
+
+.history-date, .history-time {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.back-btn {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background: #2C2C2C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.1em;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.back-btn:hover {
+    background: #3a3a3a;
+}
