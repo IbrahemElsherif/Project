@@ -26,6 +26,7 @@
       "popup.js",
       "background.js",
       "history.html",
+      "history.js",
       "styles.css"
     ],
     "matches": ["<all_urls>"]
