@@ -2,6 +2,9 @@
 # TimeMe
 #### [Video Demo](https://youtu.be/iv68_j2lEp0)
 
+![Timeme](Timeme.gif)
+
+
 ## Description
 
 TimeMe is a lightweight and efficient Chrome extension designed to help users track the time spent on individual browser tabs. Whether you're aiming to boost productivity, analyze your browsing habits, or simply stay mindful of your online activities, TimeMe provides the insights you need.
